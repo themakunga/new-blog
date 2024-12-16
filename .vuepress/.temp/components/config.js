@@ -3,6 +3,8 @@ import { useScriptTag } from "/home/nicolas/personal/newblog/node_modules/.pnpm/
 import FontIcon from "/home/nicolas/personal/newblog/node_modules/.pnpm/vuepress-plugin-components@2.0.0-rc.64_sass-embedded@1.83.0_vuepress@2.0.0-rc.19_@vuepress+bu_q5qjdd4hxl3jr6zqno3t5zwxau/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
 import Badge from "/home/nicolas/personal/newblog/node_modules/.pnpm/vuepress-plugin-components@2.0.0-rc.64_sass-embedded@1.83.0_vuepress@2.0.0-rc.19_@vuepress+bu_q5qjdd4hxl3jr6zqno3t5zwxau/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
 import VPCard from "/home/nicolas/personal/newblog/node_modules/.pnpm/vuepress-plugin-components@2.0.0-rc.64_sass-embedded@1.83.0_vuepress@2.0.0-rc.19_@vuepress+bu_q5qjdd4hxl3jr6zqno3t5zwxau/node_modules/vuepress-plugin-components/lib/client/components/VPCard.js";
+import PDF from "/home/nicolas/personal/newblog/node_modules/.pnpm/vuepress-plugin-components@2.0.0-rc.64_sass-embedded@1.83.0_vuepress@2.0.0-rc.19_@vuepress+bu_q5qjdd4hxl3jr6zqno3t5zwxau/node_modules/vuepress-plugin-components/lib/client/components/PDF.js";
+import CodePen from "/home/nicolas/personal/newblog/node_modules/.pnpm/vuepress-plugin-components@2.0.0-rc.64_sass-embedded@1.83.0_vuepress@2.0.0-rc.19_@vuepress+bu_q5qjdd4hxl3jr6zqno3t5zwxau/node_modules/vuepress-plugin-components/lib/client/components/CodePen.js";
 
 import "/home/nicolas/personal/newblog/node_modules/.pnpm/@vuepress+helper@2.0.0-rc.66_vuepress@2.0.0-rc.19_@vuepress+bundler-vite@2.0.0-rc.19_@types+n_um5fbyf4y2bzsazkn5743i6ygq/node_modules/@vuepress/helper/lib/client/styles/sr-only.css";
 
@@ -11,6 +13,8 @@ export default {
     if(!hasGlobalComponent("FontIcon")) app.component("FontIcon", FontIcon);
     if(!hasGlobalComponent("Badge")) app.component("Badge", Badge);
     if(!hasGlobalComponent("VPCard")) app.component("VPCard", VPCard);
+    if(!hasGlobalComponent("PDF")) app.component("PDF", PDF);
+    if(!hasGlobalComponent("CodePen")) app.component("CodePen", CodePen);
     
   },
   setup: () => {

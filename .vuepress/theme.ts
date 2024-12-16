@@ -7,15 +7,15 @@ export default hopeTheme({
   hostname: "https://nicolasmv.cl",
 
   author: {
-    name: "Nicolas Martinez Villarroel",
+    name: "Nicolas Villarroel Martinez",
     url: "https://bsky.app/profile/themakunga.bsky.social",
   },
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "https://avatars.githubusercontent.com/u/235083?v=4",
 
-  repo: "themakunga/newblog",
+  repo: "themakunga/new-blog",
 
   docsDir: "src",
 
@@ -37,43 +37,23 @@ export default hopeTheme({
   },
 
   blog: {
-    description: "A FrontEnd programmer",
-    intro: "/intro.html",
+    description:
+      '"After the end of World War II, the world was split into two -- East and West. This marked the beginning of the era called the Cold War"',
+    intro: "/about.html",
     medias: {
-      Baidu: "https://example.com",
-      BiliBili: "https://example.com",
-      Bitbucket: "https://example.com",
-      Dingding: "https://example.com",
-      Discord: "https://example.com",
-      Dribbble: "https://example.com",
-      Email: "mailto:info@example.com",
-      Evernote: "https://example.com",
-      Facebook: "https://example.com",
-      Flipboard: "https://example.com",
-      Gitee: "https://example.com",
-      GitHub: "https://example.com",
-      Gitlab: "https://example.com",
-      Gmail: "mailto:info@example.com",
-      Instagram: "https://example.com",
-      Lark: "https://example.com",
-      Lines: "https://example.com",
-      Linkedin: "https://example.com",
-      Pinterest: "https://example.com",
-      Pocket: "https://example.com",
-      QQ: "https://example.com",
-      Qzone: "https://example.com",
-      Reddit: "https://example.com",
-      Rss: "https://example.com",
-      Steam: "https://example.com",
-      Twitter: "https://example.com",
-      Wechat: "https://example.com",
-      Weibo: "https://example.com",
-      Whatsapp: "https://example.com",
-      Youtube: "https://example.com",
-      Zhihu: "https://example.com",
-      VuePressThemeHope: {
-        icon: "https://theme-hope-assets.vuejs.press/logo.svg",
-        link: "https://theme-hope.vuejs.press",
+      Discord: "https://discord.com/",
+      Email: "mailto:nicolas@42devs.cl",
+      GitHub: "https://github.com/themakunga",
+      Instagram:
+        "https://www.instagram.com/themakunga/profilecard/?igsh=MWd3OTBuNmI4ajJpaw==",
+      Linkedin:
+        "https://www.linkedin.com/in/nicolas-martinez-villarroel?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      Reddit: "https://www.reddit.com/u/kojimairiguchi/s/hJ14pojgHj",
+      Steam: "https://steamcommunity.com/id/themakunga/",
+      Twitter: "https://x.com/_makunga",
+      BlueSky: {
+        icon: "https://bsky.app/static/apple-touch-icon.png",
+        link: "https://bsky.app/profile/themakunga.bsky.social",
       },
     },
   },
@@ -87,10 +67,9 @@ export default hopeTheme({
 
   // These features are enabled for demo, only preserve features you need here
   markdown: {
-    align: true,
     attrs: true,
     codeTabs: true,
-    component: true,
+    components: true,
     demo: true,
     figure: true,
     gfm: true,
@@ -167,7 +146,7 @@ export default hopeTheme({
     // },
 
     components: {
-      components: ["Badge", "VPCard"],
+      components: ["Badge", "VPCard", "VidStack", "PDF", "CodePen"],
     },
 
     // install @vuepress/plugin-pwa and uncomment these if you want a PWA

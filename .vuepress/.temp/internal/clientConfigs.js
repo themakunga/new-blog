@@ -16,6 +16,7 @@ import * as clientConfig14 from '/home/nicolas/personal/newblog/node_modules/.pn
 import * as clientConfig15 from '/home/nicolas/personal/newblog/node_modules/.pnpm/@vuepress+plugin-nprogress@2.0.0-rc.66_vuepress@2.0.0-rc.19_@vuepress+bundler-vite@2.0.0-rc.1_b3x3fumv35xuezuhx372dsmely/node_modules/@vuepress/plugin-nprogress/lib/client/config.js'
 import * as clientConfig16 from '/home/nicolas/personal/newblog/node_modules/.pnpm/@vuepress+plugin-redirect@2.0.0-rc.66_vuepress@2.0.0-rc.19_@vuepress+bundler-vite@2.0.0-rc.19_iutx7zseqtqeuytczthvoqudq4/node_modules/@vuepress/plugin-redirect/lib/client/config.js'
 import * as clientConfig17 from '/home/nicolas/personal/newblog/.vuepress/.temp/theme-hope/config.js'
+import * as clientConfig18 from '/home/nicolas/personal/newblog/.vuepress/.temp/register-components/clientConfig.46f75710.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -36,4 +37,5 @@ export const clientConfigs = [
   clientConfig15,
   clientConfig16,
   clientConfig17,
+  clientConfig18,
 ].map((m) => m.default).filter(Boolean)
